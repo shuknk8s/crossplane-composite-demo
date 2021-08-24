@@ -7,7 +7,7 @@ metadata:
 spec:
   compositionRef:
     # Possible values cluster-google, cluster-azure, cluster-aws
-    name: cluster-aws
+    name: cluster-google
   parameters:
     # Possible values small, medium, large
     nodeSize: small
@@ -15,4 +15,4 @@ spec:
     # minNodeCount: 2
   writeConnectionSecretToRef:
     namespace: team-a
-    name: cluster
+    name: cluster-gke
